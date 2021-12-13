@@ -15,4 +15,4 @@ jobs:
         node-version: 14.x
         cache: 'npm'
     - run: npm ci
-    - run: npx mocha --exit
+    - run: node main.js
