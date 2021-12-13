@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-function countBatteriesByUsage() {
+function countBatteriesByUsage(cycles) {
   return {
     lowCount: 0,
     mediumCount: 0,
