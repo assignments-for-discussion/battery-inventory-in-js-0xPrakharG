@@ -13,10 +13,10 @@ The state-of-health (SoH) of a battery compares a used battery and a fresh batte
 
 `SoH% = 100 * present_capacity / rated_capacity`
 
-`present_capacity` =  The charge available in the battery, after a full charge
-`rated_capacity` = The rated capacity of a new battery
+`present_capacity` =  The charge available in the battery, after a full charge.
+`rated_capacity` = The rated capacity of a new battery.
 
-For example, the rated capacity of a battery is `120 Ah`. It now gives only `105 Ah` after charging. Then, its SoH is calculated as:
+For example, the rated capacity of a battery is `120 Ah`. It now gives only `105 Ah` after charging - that is its present capacity. Then, its SoH is calculated as:
 
 `SoH% = 100 * 105 / 120 = 87.5%`
 
