@@ -24,7 +24,7 @@ For example, the rated capacity of a battery is `120 Ah`. It now gives only `105
 
 Input is the present capacity of a bunch of batteries. Assume all of them have a rated capacity of 120 Ah.
 
-You need to count how many are `healthy`, how many can `exchange`, and how many have already `failed`.
+You need to count how many are `healthy`, how many can `exchange`, and how many have already `failed`, as per the criteria below.
 
 Batteries are classified by SoH:
 
