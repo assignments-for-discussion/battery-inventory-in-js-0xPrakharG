@@ -42,6 +42,7 @@ The code in this repository already has a function to do this. However, this fun
 There is also a test function in the code.
 The asserts express what's needed from the code. Do not change or remove the asserts.
 Feel free to add more asserts, though.
+
 Of course, the function isn't implemented yet, and returns wrong values. Hence the condition in the assert fails and it aborts the program.
 
 Implement the function to count correctly and pass the test.
