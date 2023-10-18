@@ -10,7 +10,7 @@ function countBatteriesByHealth(presentCapacities) {
 
 function testBucketingByHealth() {
   console.log('Counting batteries by SoH...');
-  const presentCapacities = [115, 118, 80, 95, 91, 72];
+  const presentCapacities = [113, 116, 80, 95, 92, 70];
   counts = countBatteriesByHealth(presentCapacities);
   assert(counts["healthy"] == 2);
   assert(counts["exchange"] == 3);
